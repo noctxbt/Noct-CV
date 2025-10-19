@@ -2,54 +2,100 @@
 <html></html>
 <head>
     <title>Noct CV</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
-    <table>
-    <tr>
-    <td><img src="c395f8fafbad5d99163557a71ce80541.jpg" width="350" height="350"></td>
+    <div class="container">
+    <div class="info">
+        <img src="c395f8fafbad5d99163557a71ce80541.jpg" class="avatar"></td>
         <td>
-            <h2>Всем привет</h2> 
-            <p><h3>Зовут меня html</h3></p>
-            <p><h3>Добро пожаловать на html</h3></p>
+            <h1>Всем привет</h1> 
+            <p>Зовут меня html</p>
+            <p>Добро пожаловать на html</p>
+
+              <h3>Мои любимые игры</h3>
         
-        </td>
+        <a href="https://store.steampowered.com/app/730/CounterStrike_2/" target="_blank">Counter-Strike 2</a>
+        |
+        <a href="https://store.steampowered.com/app/570/Dota_2/" target="_blank">Dota 2</a>
+        
+        </div>
+ 
+      
+    
+ <div class="cv bg-yellow">
+        <h2>Мои друзьяшки</h2>
+        <ol type="a" class="list">
+            <li>евгешкин</li>
+            <li>данилыч</li>
+            <li>захарыч каркарыч</li>
+        </ol>
+    
+</div>
+<div class="cv bg-pink">
+<table class="table">
+    <tr>
+        <h2 class="zagolovok">Мои достижения в играх (дерьмовые)</h2>
+        <tr>
+<td>Игра</td>
+        <td>Часы</td>
+        <td>Оценка</td>
+        </tr>
+        
+
+        <td>Apex Legends</td>
+        <td>3592</td>
+        <td>0/10</td>
     </tr>
-    </table>
-   <hr>
-   <h2>Мои любимые игры</h2>
-  <ol type="numbers">
-    <li>cs2</li>
-    <li>dota2</li>
-    <li>path of exile</li>
-    <li>path of exile 2</li>
-  </ol>
-  <hr>
-  <h2>Мои друзьяшки</h2>
-  <ol type="a">
-    <li>евгешкин</li>
-    <li>данилыч</li>
-    <li>захарыч каркарыч</li>
-  </ol>
-  <hr>
-  <h2>Любимые тиктоки моей девушки</h2>
-  <ul type="circle">
-    <p><li><strong>А бошки дымятся....</strong></li></p>
-    <p><li><i>Афроамериканцы, которые пробуют еду</i></li></p>
-    <p><li>Валдберрис</li></p>
-    <p><li>Танцы голых девушек</li></p>
-    <p><li><strong>Это вообще-то рилсы, а не тиктоки</li></strong></p>
-  </ul>
-  <hr>
-  <h2>Топ вещей за что меня отпиздит девушка</h2>
-  <ul type="square">
-<li>Съел бургер девушки</li>
-<li>Сказал, что рилсы, это тиктоки</li>
-<li>Не заметил сделанные ресницы</li>
-<li>Выпил кока колу ванильную</li>
-<li>Не дает компьютер для просмотра <s>дерьмовых</s> крутых экстрасенсов</li>
-  </ul>
-  <hr>
-   <h2><s>Выкупить меня из рабства</s> Связь со мной</h2>
+    <tr>
+        <td>Rust</td>
+        <td>1200</td>
+        <td>0/10</td>
+    </tr>
+    <tr>
+        <td>Dota 2</td>
+        <td>1488</td>
+        <td>0/10</td>
+    </tr>
+    <tr>
+        <td>Counter-Strike 2</td>
+        <td>500</td>
+        <td>5/10</td>
+    </tr>
+    <tr>
+        <td>Deadlock</td>
+        <td>59898</td>
+        <td>9/10</td>
+    </tr>
+
+</table>
+</div> 
+
+<div class="cv bg-green">
+        <h2>Любимые тиктоки моей девушки</h2>
+        <ul class="reels">
+            <p><li><strong>А бошки дымятся....</strong></li></p>
+            <p><li><i>Афроамериканцы, которые пробуют еду</i></li></p>
+            <p><li>Валдберрис</li></p>
+            <p><li>Танцы голых девушек</li></p>
+            <p><li><strong>Это вообще-то рилсы, а не тиктоки</li></strong></p>
+        </ul>
+        
+ </div>
+
+     <div class="cv bg-blue">
+        <h2>Топ вещей за что меня отпиздит девушка</h2>
+        <ol  class="list">
+            <li>Съел бургер девушки</li>
+            <li>Сказал, что рилсы, это тиктоки</li>
+            <li>Не заметил сделанные ресницы</li>
+            <li>Выпил кока колу ванильную</li>
+            <li>Не дает компьютер для просмотра <s>дерьмовых</s> крутых экстрасенсов</li>
+        </ol>
+ </div> 
+
+ <!-- <div class="slavepopa">
+   <h2>Связь со мной</h2>
    <form action="slave.html">
 <label for="name">Ваше имя</label>
 <input type="text" id="name" placeholder="Введите ваше имя">
@@ -62,9 +108,12 @@
 <br>
 <label for="text">Ваше сообщение мне</label>
 <br>
-<textarea name="text" id="text" placeholder="Введите ваше сообщение тут" cols="250" rows="15"></textarea>
+<textarea name="text" id="text" placeholder="Введите ваше сообщение тут" cols="60" rows="15"></textarea>
 </br>  
 <input type="submit" value="Выкупить из рабства">
    </form>
+   </div>
+   </div>
+   <div style="margin-bottom: 500px;"></div>
 </body>
-</html>
+</html>   
